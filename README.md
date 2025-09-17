@@ -10,7 +10,9 @@ sudo wget https://github.com/DaddyBigFish/nmap.py/raw/refs/heads/main/nmap.py -O
 ```
 
 # Usage
+```
 nmap.py
+```
 
 # Example
 <img width="365" height="236" alt="image" src="https://github.com/user-attachments/assets/5a6ba3bc-1583-45e4-9214-28a87ae0ddd6" />
