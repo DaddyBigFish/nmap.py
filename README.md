@@ -1,8 +1,8 @@
 # Description
-Simple nmap output file parser to create pretty tables using python.
+Simple nmap output file parser to create pretty tables using python. It will use the current directory to find all `.gnmap` files and will collate them into a unique data set and format them into a single table.
 
 # Requirements
-Any **.gnmap** file output from an nmap scan.
+Any `.gnmap` output files from nmap scans.
 
 # Installation
 ```
@@ -13,4 +13,5 @@ sudo wget https://github.com/DaddyBigFish/nmap.py/raw/refs/heads/main/nmap.py -O
 nmap.py
 
 # Example
-<img width="371" height="227" alt="image" src="https://github.com/user-attachments/assets/16fdc58a-821b-4948-a66f-4b38c1ff1d58" />
+<img width="363" height="239" alt="image" src="https://github.com/user-attachments/assets/306faf4d-7ec9-4d35-8d86-be3206f0732f" />
+
