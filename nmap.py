@@ -2,6 +2,7 @@
 
 import os
 import re
+import ipaddress
 from rich.console import Console
 from rich.table import Table
 
@@ -38,8 +39,7 @@ def print_table(hosts_data):
     table.add_column("PORTS", style="green")
     table.add_column("SERVICES", style="yellow")
 
-    for host, entries in sorted(hosts_data.items()):
-        # sort by numeric port
+    for host, entries in sorted(hosts_data.items(), key=lambda x: ipaddress.ip_address(x[0])):
         entries_sorted = sorted(entries, key=lambda x: int(x[0]))
         ports_str = "\n".join(p for p, _ in entries_sorted)
         services_str = "\n".join(s for _, s in entries_sorted)
