@@ -39,7 +39,7 @@ def print_table(hosts_data, filename):
 
     for host, ports in hosts_data.items():
         ports_sorted = sorted(ports, key=lambda x: int(x[0]))
-        ports_str = "\n".join(f"{p} / {proto}" for p, proto, _ in ports_sorted)
+        ports_str = "\n".join(f"{p}" for p, _, _ in ports_sorted)  # only numbers
         services_str = "\n".join(s if s else "unknown" for _, _, s in ports_sorted)
         table.add_row(host, ports_str, services_str)
 
