@@ -13,5 +13,5 @@ sudo wget https://github.com/DaddyBigFish/nmap.py/raw/refs/heads/main/nmap.py -O
 nmap.py
 
 # Example
-<img width="363" height="239" alt="image" src="https://github.com/user-attachments/assets/306faf4d-7ec9-4d35-8d86-be3206f0732f" />
+<img width="365" height="236" alt="image" src="https://github.com/user-attachments/assets/5a6ba3bc-1583-45e4-9214-28a87ae0ddd6" />
 
