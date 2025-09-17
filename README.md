@@ -6,7 +6,7 @@ Any **.gnmap** file output from an nmap scan.
 
 # Installation
 ```
-sudo wget https://github.com/DaddyBigFish/nmap.py/raw/refs/heads/main/nmap.py -O /usr/local/bin/nmap.py
+sudo wget https://github.com/DaddyBigFish/nmap.py/raw/refs/heads/main/nmap.py -O /usr/local/bin/nmap.py; sudo chmod +x /usr/local/bin/nmap.py
 ```
 
 # Usage
